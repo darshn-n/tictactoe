@@ -36,8 +36,8 @@ avatar_glow: ^2.0.2
 
 ## Screenshots
 
-![App Screenshot](https://github.com/darshn-n/tictactoe/blob/main/s1.jpg)
-![App Screenshot](https://github.com/darshn-n/tictactoe/blob/main/s2.jpg)
+![App Screenshot](https://github.com/darshn-n/tictactoe/blob/main/ss1.jpg)
+![App Screenshot](https://github.com/darshn-n/tictactoe/blob/main/ss2.jpg)
 
 ### That's it
 
