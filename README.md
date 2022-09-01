@@ -4,7 +4,7 @@ A new Flutter project of Multiplayer video game genre.
 
 ## Demo
 
-![App Screenshot](https://github.com/darshn-n/tictactoe/blob/main/demo.gif)
+<img src="demo.gif" height="300em" />
 
 ## Installation
 
@@ -35,9 +35,7 @@ avatar_glow: ^2.0.2
 ```
 
 ## Screenshots
-
-![App Screenshot](https://github.com/darshn-n/tictactoe/blob/main/ss1.jpg)
-![App Screenshot](https://github.com/darshn-n/tictactoe/blob/main/ss2.jpg)
+<img src="ss1.jpg" height="300em" /> &nbsp;&nbsp;&nbsp;<img src="ss2.jpg" height="300em" /> &nbsp;&nbsp;&nbsp;
 
 ### That's it
 
