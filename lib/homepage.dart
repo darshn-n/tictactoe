@@ -47,50 +47,48 @@ class _HomePageState extends State<HomePage> {
             height: 15,
           ),
           Expanded(
-            child: Container(
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: <Widget>[
-                  Padding(
-                    padding: const EdgeInsets.all(30.0),
-                    child: Column(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: <Widget>[
-                        Text(
-                          'Player O',
-                          style: myNewFontWhite,
-                        ),
-                        const SizedBox(
-                          height: 20,
-                        ),
-                        Text(
-                          ohScore.toString(),
-                          style: myNewFontWhite,
-                        ),
-                      ],
-                    ),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: <Widget>[
+                Padding(
+                  padding: const EdgeInsets.all(30.0),
+                  child: Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: <Widget>[
+                      Text(
+                        'Player O',
+                        style: myNewFontWhite,
+                      ),
+                      const SizedBox(
+                        height: 20,
+                      ),
+                      Text(
+                        ohScore.toString(),
+                        style: myNewFontWhite,
+                      ),
+                    ],
                   ),
-                  Padding(
-                    padding: const EdgeInsets.all(30.0),
-                    child: Column(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: <Widget>[
-                        Text(
-                          'Player X',
-                          style: myNewFontWhite,
-                        ),
-                        const SizedBox(
-                          height: 20,
-                        ),
-                        Text(
-                          exScore.toString(),
-                          style: myNewFontWhite,
-                        ),
-                      ],
-                    ),
+                ),
+                Padding(
+                  padding: const EdgeInsets.all(30.0),
+                  child: Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: <Widget>[
+                      Text(
+                        'Player X',
+                        style: myNewFontWhite,
+                      ),
+                      const SizedBox(
+                        height: 20,
+                      ),
+                      Text(
+                        exScore.toString(),
+                        style: myNewFontWhite,
+                      ),
+                    ],
                   ),
-                ],
-              ),
+                ),
+              ],
             ),
           ),
           Expanded(
@@ -119,23 +117,21 @@ class _HomePageState extends State<HomePage> {
                 }),
           ),
           Expanded(
-            child: Container(
-              child: Center(
-                child: Column(
-                  children: <Widget>[
-                    Text(
-                      'TIC TAC TOE',
-                      style: myNewFontWhite,
-                    ),
-                    const SizedBox(
-                      height: 60,
-                    ),
-                    Text(
-                      'By darshn-n',
-                      style: myNewFontWhite,
-                    ),
-                  ],
-                ),
+            child: Center(
+              child: Column(
+                children: <Widget>[
+                  Text(
+                    'TIC TAC TOE',
+                    style: myNewFontWhite,
+                  ),
+                  const SizedBox(
+                    height: 60,
+                  ),
+                  Text(
+                    'By darshn-n',
+                    style: myNewFontWhite,
+                  ),
+                ],
               ),
             ),
           ),
